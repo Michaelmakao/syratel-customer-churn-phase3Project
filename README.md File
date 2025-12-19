@@ -1,4 +1,6 @@
 # SyriaTel Customer Churn Prediction
+## Introduction 
+Customer (Churn)happens when customers stop using a companys services. For a telecomunications like SyriaTel, churn leads to revenue loss and increased costs because acquring new  customers is more expensive than retaining existing ones.
 
 ## Overview
 This project predicts whether a customer will stop using SyriaTel, a telecom company. Using customer usage data, we build classification models to identify high-risk customers.
