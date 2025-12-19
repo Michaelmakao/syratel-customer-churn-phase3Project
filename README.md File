@@ -1,0 +1,43 @@
+# SyriaTel Customer Churn Prediction
+
+## Overview
+This project predicts whether a customer will stop using SyriaTel, a telecom company. Using customer usage data, we build classification models to identify high-risk customers.
+
+## Business Problem
+Customer churn leads to revenue loss and high costs for acquiring new customers. Retaining existing customers is more cost-effective. Our goal is to help SyriaTel proactively reduce churn.
+
+## Dataset
+- Source: BigML SyriaTel dataset
+- Records: 3,333
+- Features: 21 columns, including customer demographics, call usage patterns, and service plan information.
+
+## Methodology
+1. Data Cleaning & Preprocessing
+2. Feature Engineering
+3. Train-Test Split
+4. Modeling:
+   - Logistic Regression
+   - Random Forest Classifier
+5. Evaluation:
+   - Accuracy, Precision, Recall, F1-score
+   - Feature Importance
+
+## Findings
+- **High daytime usage and charges** strongly correlate with churn.
+- **Multiple customer service calls** increase churn likelihood.
+- **International plan users** are more likely to churn.
+
+## Recommendations
+1. Proactively support high-risk customers with multiple service calls.
+2. Offer better pricing for high daytime users.
+3. Review international plan pricing.
+4. Use the model as an early warning system.
+
+## How to Run
+1. Clone the repo: `git clone <repo_url>`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the notebook: `SyriaTel_Churn.ipynb`
+
+## Author
+Michael Kamuya Makao
+
